@@ -1,0 +1,43 @@
+{
+  "name": "socket-pixels",
+  "version": "0.1.0",
+  "description": "A pixel collaboration tool written using NodeJS, Socket.io and ReactJS",
+  "author": "Jeroen Reurings <info@wickedwarlock.com> (http://www.wickedwarlock.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Buffer-Overflow/socket-pixels.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "socket.io",
+    "react",
+    "reactjs"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint": "^3.16.0",
+    "eslint-plugin-react": "^6.10.0",
+    "express": "^4.13.4",
+    "react-color": "^2.11.1",
+    "react-hot-loader": "^1.3.0",
+    "styled-components": "^1.4.3",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "dependencies": {
+    "socket.io": "^1.7.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
