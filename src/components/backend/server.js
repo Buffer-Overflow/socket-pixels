@@ -56,7 +56,7 @@ class Server {
       });
       client.on('message', (data) => {
         this.printServerMessage(`Message received with data: ${JSON.stringify(data)}`)
-        client.emit('broadcast', data);
+        //client.emit('broadcast', data);
         client.broadcast.emit('broadcast', data);
       });
     });
